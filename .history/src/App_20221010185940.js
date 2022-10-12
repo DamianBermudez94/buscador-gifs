@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import SearchResults from './pages/SearchResults';
+import ListOfGifs from './component/ListOfGifs';
 import Home from './pages/home';
 import {Link, Route} from "wouter"
 //import SearchResults from './pages/searchResults';
@@ -19,7 +19,7 @@ export function App() {
           path="/"
           />
           <Route
-            component={SearchResults}
+            component={ListOfGifs}
             path="/search/:keyword"/>
           
          

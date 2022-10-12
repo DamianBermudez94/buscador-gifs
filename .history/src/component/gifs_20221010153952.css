@@ -1,0 +1,7 @@
+.gif{
+   
+    padding: 10px;
+    font-weight: 55px;
+    display: flex;
+    flex-direction: column;
+}
